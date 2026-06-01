@@ -18,8 +18,8 @@ function calculateLove() {
         message = "❤️ Great Connection!";
     } else if (loveScore >= 40) {
         message = "😊 Good Friendship!";
-    } else if (lovescore >= 25) {
-        message = "😅 Lets Break Up!";
+    } else if (loveScore >= 25) {
+        message = "💔 Lets Break Up!";
     }
 
     document.getElementById("result").innerHTML =
